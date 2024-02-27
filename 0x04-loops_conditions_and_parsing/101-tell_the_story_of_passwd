@@ -4,7 +4,7 @@ while IFS= read -r contents
 do
     user=$(echo "$contents" | cut -f 1 -d ':')
     pass=$(echo "$contents" | cut -f 2 -d ':')
-    vid=$(echo "$contents" | cut -f 3 -d ':')
+    uid=$(echo "$contents" | cut -f 3 -d ':')
     gid=$(echo "$contents" | cut -f 4 -d ':')
     u_infor=$(echo "$contents" | cut -f 5 -d ':')
     home=$(echo "$contents" | cut -f 6 -d ':')
