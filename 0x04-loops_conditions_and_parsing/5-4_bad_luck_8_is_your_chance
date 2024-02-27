@@ -11,7 +11,7 @@ do
               echo "good luck"
       else
               echo "Best School"
-      if
+      fi
       i=$(( i + 1 ))
 done
 
